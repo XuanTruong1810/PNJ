@@ -4,6 +4,7 @@
         $page = isset($_GET['page']) ? $_GET['page'] : 'home';
         switch ($page) {
             case 'home':
+                include './home.php';
                 break;
             case 'main1':
                 include './main1.php';
