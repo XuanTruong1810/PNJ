@@ -6,14 +6,8 @@
             case 'home':
                 include './home.php';
                 break;
-            case 'main1':
-                include './main1.php';
-                break;
-            case 'main2':
-                include './main2.php';
-                break;
-            case 'main3':
-                include './main3.php';
+            case 'detail':
+                include './detail.php';
                 break;
             default:
                 include '404.php';

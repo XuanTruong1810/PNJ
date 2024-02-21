@@ -76,11 +76,12 @@ header {
 .header_bot .search {
   width: 300px;
 }
-.header_bot input {
+.header_bot .search input {
   border: none;
   outline: none;
   border: 1px solid #333;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 8px;
+  border-radius: 10px;
   width: 100%;
+  font-size: 12px;
 }
