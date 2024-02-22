@@ -9,6 +9,9 @@
             case 'detail':
                 include './detail.php';
                 break;
+            case 'checkout-cart':
+                include './checkout-cart.php';
+                break;
             default:
                 include '404.php';
                 break;

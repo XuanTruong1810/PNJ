@@ -22,6 +22,10 @@ $publicFile = $singleton->PublicFile();
   <link rel="stylesheet" type="text/css" href="../Public/CSS/home.css">
   <link rel="stylesheet" type="text/css" href="../Public/CSS/products.css">
   <link rel="stylesheet" type="text/css" href="../Public/CSS/footer.css">
+  <link rel="stylesheet" type="text/css" href="../Public/CSS/detail.css">
+  <link rel="stylesheet" type="text/css" href="../Public/CSS/cart.css">
+
+
 
 
 

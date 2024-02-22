@@ -22,8 +22,10 @@
                     <span>Tài khoản của tôi</span>
                 </div>
                 <div>
-                    <span><i class="fa-solid fa-cart-shopping"></i></span>
-                    <span>Giỏ hàng</span>
+                    <a href="?page=checkout-cart">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span>Giỏ hàng</span>
+                    </a>
                 </div>
             </div>
         </div>
