@@ -110,16 +110,34 @@
                         <button class="continue">Tiếp tục</button>
                     </div>
                 </div>
-                <div class="form-of-receipt  cart-right-form">
+                <div class="form-of-receipt cart-right-form">
                     <p>2</p>
                     <p>Hình thức nhận hàng</p>
                 </div>
                 <div>
                     <div class="input-info row">
-                        <div class="col-sm-6"><input type="text" placeholder="Họ tên(Bắt buộc)"></div>
-                        <div class="col-sm-6"><input type="text" placeholder="SĐT (bắt buộc)"></div>
-                        <div class="col-sm-6"><input type="text" placeholder="Email"></div>
-                        <div class="col-sm-6"><input type="date" placeholder="Ngày sinh"></div>
+                        <div class="col-sm-6">
+                            <select name="province" id="province"></select>
+                        </div>
+                        <div class="col-sm-6">
+                            <select name="city" id="city">
+                                <option value="">Hallo</option>
+                                <option value="">Hallo</option>
+                                <option value="">Hallo</option>
+                                <option value="">Hallo</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <select name="wards" id="wards">
+                                <option value="">Hallo</option>
+                                <option value="">Hallo</option>
+                                <option value="">Hallo</option>
+                                <option value="">Hallo</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="road" placeholder="Số nhà, Tên đường">
+                        </div>
                     </div>
                 </div>
             </div>

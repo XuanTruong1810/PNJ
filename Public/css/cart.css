@@ -1,9 +1,11 @@
 .checkout-cart .back-home {
   margin-bottom: 10px;
 }
+
 .checkout-cart .info-cart {
   display: flex;
 }
+
 .checkout-cart button {
   outline: none;
   border: none;
@@ -15,6 +17,7 @@
   font-size: 16px;
   font-weight: 300;
 }
+
 .cart-left {
   border: 1px solid #ccc;
   padding: 0px 10px;
@@ -22,6 +25,7 @@
   width: 36%;
   font-weight: 300;
 }
+
 .cart-left h3 {
   padding: 15px 0px;
   text-align: left;
@@ -29,14 +33,17 @@
   color: #002d5c;
   font-size: 17px;
 }
+
 .cart-left .item {
   display: flex;
 }
+
 .cart-left .item h6 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 300;
 }
+
 .cart-left .item .img {
   width: 400px;
   padding: 15px;
@@ -45,20 +52,25 @@
   align-items: center;
   margin: 0 10px 10px 10px;
 }
+
 .cart-left .item .img img {
   width: 100%;
 }
+
 .cart-left .item .info div {
   margin-bottom: 10px;
 }
+
 .cart-left .item .info .form div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .cart-left .item .info .form div p {
   margin-bottom: 0;
 }
+
 .cart-left .item .info .form div select,
 .cart-left .item .info .form div input[type="number"] {
   width: 100px;
@@ -80,6 +92,7 @@
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
 .stepper-item {
   position: relative;
   display: flex;
@@ -91,9 +104,11 @@
     font-size: 12px;
   }
 }
+
 .cart-right {
   width: 100%;
 }
+
 .stepper-item::before {
   position: absolute;
   content: "";
@@ -148,6 +163,7 @@
 .stepper-item:first-child::before {
   content: none;
 }
+
 .stepper-item:last-child::after {
   content: none;
 }
@@ -162,6 +178,7 @@
   display: flex;
   align-items: center;
 }
+
 .cart-right-form p:nth-child(1) {
   width: 30px;
   height: 30px;
@@ -174,6 +191,7 @@
   font-weight: 600;
   margin-bottom: 0;
 }
+
 .cart-right-form p:nth-child(2) {
   font-weight: 600;
   margin-bottom: 0;
@@ -185,7 +203,10 @@
   align-items: flex-start;
 }
 
-.cart-right .input-info input {
+.cart-right .input-info input,
+#province,
+#city,
+#wards {
   outline: none;
   border: none;
   height: 40px;
@@ -198,9 +219,16 @@
   font-size: 14px;
 }
 
+#province,
+#city,
+#wards {
+  padding: 5px;
+}
+
 .cart-right .input-info input::placeholder {
   font-style: italic;
 }
+
 .cart-right .continue {
   text-align: center;
   margin: 5px 0;
