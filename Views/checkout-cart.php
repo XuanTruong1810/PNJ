@@ -120,20 +120,10 @@
                             <select name="province" id="province"></select>
                         </div>
                         <div class="col-sm-6">
-                            <select name="city" id="city">
-                                <option value="">Hallo</option>
-                                <option value="">Hallo</option>
-                                <option value="">Hallo</option>
-                                <option value="">Hallo</option>
-                            </select>
+                            <select name="city" id="city"></select>
                         </div>
                         <div class="col-sm-6">
-                            <select name="wards" id="wards">
-                                <option value="">Hallo</option>
-                                <option value="">Hallo</option>
-                                <option value="">Hallo</option>
-                                <option value="">Hallo</option>
-                            </select>
+                            <select name="wards" id="wards"></select>
                         </div>
                         <div class="col-sm-6">
                             <input type="text" name="road" placeholder="Số nhà, Tên đường">
