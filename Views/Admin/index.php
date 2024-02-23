@@ -1,3 +1,3 @@
 <div>
-    Nav
+    Admin
 </div>

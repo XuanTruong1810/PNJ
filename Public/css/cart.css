@@ -84,8 +84,6 @@
   cursor: pointer;
 }
 
-/* right */
-
 .stepper-wrapper {
   margin-top: auto;
   display: flex;
@@ -232,4 +230,59 @@
 .cart-right .continue {
   text-align: center;
   margin: 5px 0;
+}
+
+.shippingMethod {
+  border: 1px solid #333;
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.shippingMethod label {
+  margin-right: 5px;
+}
+
+.shippingMethod p {
+  margin-bottom: 0;
+
+}
+
+.shippingMethod p:nth-child(2) {
+  font-weight: 300;
+}
+
+.checkbox-list li {
+  list-style: none;
+  margin: 10px 0;
+  display: flex;
+}
+
+.checkbox-list li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkbox-list li label {
+  font-weight: 300;
+}
+
+.checkout-cart .pay_temp {
+  position: relative;
+}
+
+
+.checkout-cart .pay_temp::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  border: 1px solid #333;
+}
+
+.checkout-cart .pay {
+  display: flex;
+  justify-content: space-between;
 }

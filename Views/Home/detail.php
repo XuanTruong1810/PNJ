@@ -1,6 +1,8 @@
 <?php
 $product = $_GET['product'];
+//// mã sản phẩm truy vấn cơ sở dữ liệu
 
+// select * from product where id = $product
 
 /// truy vấn cơ sở dữ liệu;
 

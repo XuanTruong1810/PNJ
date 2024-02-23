@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <div class="app" style="display: flex;">
-        <?php include './__Layout/Nav.php' ?>
-        <?php include './__Layout/Content.php' ?>
-    </div>
-</body>
-
-</html>
+<?php
+$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+switch ($page) {
+    case 'home':
+        include '../Customer/index.php';
+        break;
+    case 'login':
+        include '../Customer/Login.php';
+        break;
+    default:
+        include '404.php';
+        break;
+}

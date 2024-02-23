@@ -1,5 +1,4 @@
 <?php
-
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $brand = isset($_GET['brand']) ? $_GET['brand'] : '';
     $price = isset($_GET['price']) ? $_GET['price'] : '';

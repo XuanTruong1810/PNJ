@@ -4,13 +4,13 @@
         $page = isset($_GET['page']) ? $_GET['page'] : 'home';
         switch ($page) {
             case 'home':
-                include './home.php';
+                include '../Home/home.php';
                 break;
             case 'detail':
-                include './detail.php';
+                include '../Home/detail.php';
                 break;
             case 'checkout-cart':
-                include './checkout-cart.php';
+                include '../Home/checkout-cart.php';
                 break;
             default:
                 include '404.php';

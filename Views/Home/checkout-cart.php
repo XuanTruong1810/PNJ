@@ -8,7 +8,7 @@
         <div class="cart-left">
             <h3>THÔNG TIN GIỎ HÀNG</h3>
             <?php
-            for ($i = 0; $i < 5; $i++) {
+            for ($i = 0; $i < 1; $i++) {
 
             ?>
                 <div class="item">
@@ -59,11 +59,29 @@
                         </div>
 
                     </div>
+
                 </div>
+
                 <div>
                     ---------------------------------------------------------------------
                 </div>
             <?php  } ?>
+            <div>
+                <div class="pay_temp">
+                    <div class="pay">
+                        <p>Tạm phí</p>
+                        <p>2.132.000đ</p>
+                    </div>
+                    <div class="pay">
+                        <p>Chi phí vận chuyển</p>
+                        <p style="font-weight: bold;">Miễn phí</p>
+                    </div>
+                </div>
+                <div class="pay" style="margin-top: 10px;">
+                    <p style="font-weight: bold;">Thành tiền</p>
+                    <p style="color: red; font-weight: bold;">2.132.000đ</p>
+                </div>
+            </div>
         </div>
         <div class="cart-right">
             <div class="stepper-wrapper">
@@ -141,6 +159,33 @@
                             <input type="text" name="location_description" placeholder="Ghi chú">
                         </div>
                     </div>
+                </div>
+                <div>
+                    <p>Phương thức vận chuyển</p>
+                    <div class="shippingMethod">
+                        <label for="">
+                            <input type="radio" name="" id="">
+                        </label>
+                        <div>
+                            <p>Miễn phí vận chuyển</p>
+                            <p>Dự kiến nhận hàng: Chủ nhật, ngày 25/02/2024 - Chủ nhật, ngày 03/03/2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <ul class="checkbox-list">
+                        <li>
+                            <input type="checkbox" id="checkbox1" name="checkbox1">
+                            <label for="checkbox1">Đồng ý nhận các thông tin và chương trình khuyến mãi của PNJ qua email, SMS , mạng xã hội…</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox2" name="checkbox2">
+                            <label for="checkbox2">Tôi đồng ý cho PNJ thu thập, xử lý dữ liệu cá nhân của tôi theo quy định tại Thông báo này và theo quy định của pháp luật.</label>
+                        </li>
+                    </ul>
+                </div>
+                <div style="text-align: center;">
+                    <button>Đặt hàng</button>
                 </div>
             </div>
         </div>

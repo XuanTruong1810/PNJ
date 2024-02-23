@@ -12,7 +12,7 @@ $end = $start + $totalPage - 1;
         <div class="item col-sm-3">
             <div class="img">
                 <a href="?page=detail&product=<?php echo $i; ?>">
-                    <img src="<?php echo $publicFile; ?>/Image/Products/jhhasodjc.png" alt="">
+                    <img src="../../Public/Image/Products/jhhasodjc.png" alt="">
                 </a>
             </div>
             <div>

@@ -19,7 +19,9 @@
             <div class="header_top-right">
                 <div>
                     <span><i class="fa-regular fa-user"></i></span>
-                    <span>Tài khoản của tôi</span>
+                    <a href="../Customer/?page=login">
+                        <span>Tài khoản của tôi</span>
+                    </a>
                 </div>
                 <div>
                     <a href="?page=checkout-cart">

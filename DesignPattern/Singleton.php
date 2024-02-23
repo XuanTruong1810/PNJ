@@ -15,7 +15,7 @@ class Singleton
     }
     public function PublicFile()
     {
-        return "../Public";
+        return "../../Public";
     }
     public function ConnectString()
     {
