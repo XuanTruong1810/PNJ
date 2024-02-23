@@ -1,7 +1,6 @@
 <?php
-require_once '../../DesignPattern/Singleton.php';
-$singleton = Singleton::getInstance();
-$publicFile = $singleton->PublicFile();
+require_once '../index.php';
+$publicFile = $GLOBALS['Instance']->PublicFile();
 ?>
 
 <head>

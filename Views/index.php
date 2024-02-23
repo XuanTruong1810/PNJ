@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '../../DesignPattern/Singleton.php';
+$GLOBALS['Instance'] = Singleton::getInstance();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

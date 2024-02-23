@@ -19,6 +19,12 @@ class Singleton
     }
     public function ConnectString()
     {
-        return "Server=XuanTruong;Database=PNJ;Uid=XuanTruong;Pwd=XuanTruong123;";
+        $jsonData = file_get_contents(__DIR__ . "../../config.json");
+        $config = json_decode($jsonData, true);
+        if (isset($config['db_connect_string'])) {
+            return $config['db_connect_string'];
+        } else {
+            return null;
+        }
     }
 }
