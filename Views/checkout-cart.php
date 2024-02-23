@@ -117,16 +117,28 @@
                 <div>
                     <div class="input-info row">
                         <div class="col-sm-6">
-                            <select name="province" id="province"></select>
+                            <select name="province" id="province">
+                                <option value="" selected>Chọn Tỉnh/Thành phố</option>
+
+                            </select>
                         </div>
                         <div class="col-sm-6">
-                            <select name="city" id="city"></select>
+                            <select name="city" id="city">
+                                <option value="" selected>Chọn Quận/Huyện</option>
+
+                            </select>
                         </div>
                         <div class="col-sm-6">
-                            <select name="wards" id="wards"></select>
+                            <select name="wards" id="wards">
+                                <option value="" selected>Chọn Phường/Xã</option>
+
+                            </select>
                         </div>
                         <div class="col-sm-6">
                             <input type="text" name="road" placeholder="Số nhà, Tên đường">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" name="location_description" placeholder="Ghi chú">
                         </div>
                     </div>
                 </div>
