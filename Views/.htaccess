@@ -1,0 +1,9 @@
+<Files "head.php">
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files "script.php">
+Order Allow,Deny
+Deny from all
+</Files>

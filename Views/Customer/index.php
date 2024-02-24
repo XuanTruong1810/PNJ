@@ -1,13 +1,29 @@
+<?php include '../head.php' ?>
+
+
+
 <?php
-$page = isset($_GET['page']) ? $_GET['page'] : 'home';
-switch ($page) {
-    case 'home':
-        include '../Customer/index.php';
-        break;
-    case 'login':
-        include '../Customer/Login.php';
-        break;
-    default:
-        include '404.php';
-        break;
+$publicFile = Singleton::getInstance()->PublicFile();
+$page = $_GET['page'];
+if ($page == 'login') {
+    include '../Customer/Login.php';
+    exit();
 }
+?>
+<div>
+    <div class="container-fluid customer ">
+        <div class="row">
+            <?php include '../Customer/__Layout/Nav.php' ?>
+
+            <div class="col-sm-9 header-right">
+                <?php include '../Customer/__Layout/header.php' ?>
+
+                <div class="customer_main">
+                    <!-- include dữ liệu -->
+                    <?php include '../Customer/__Layout/Main.php' ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php include '../script.php' ?>

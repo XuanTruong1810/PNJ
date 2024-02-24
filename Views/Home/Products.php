@@ -1,4 +1,6 @@
 <?php
+require_once '../../DesignPattern/Singleton.php';
+$publicFile = Singleton::getInstance()->PublicFile();
 $pagination = isset($_GET['pagination']) ? intval($_GET['pagination']) : 1;
 $totalPage = 10;
 $start = ($pagination - 1) * $totalPage + 1;
@@ -12,7 +14,7 @@ $end = $start + $totalPage - 1;
         <div class="item col-sm-3">
             <div class="img">
                 <a href="?page=detail&product=<?php echo $i; ?>">
-                    <img src="../../Public/Image/Products/jhhasodjc.png" alt="">
+                    <img src="<?php echo $publicFile ?>/Image/Products/jhhasodjc.png" alt="">
                 </a>
             </div>
             <div>

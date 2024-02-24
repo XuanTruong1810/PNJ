@@ -4,7 +4,6 @@
             <div class="image_footer">
                 <img src="<?php echo $publicFile; ?>/Image/Common/logo.png" alt="PNJ">
             </div>
-
         </div>
         <div class="footer_bot">
             <div class="footer_bot-left">

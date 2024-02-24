@@ -15,7 +15,8 @@ class Singleton
     }
     public function PublicFile()
     {
-        return "../../Public";
+        $url = "http://$_SERVER[HTTP_HOST]/PNJ/Public";
+        return $url;
     }
     public function ConnectString()
     {

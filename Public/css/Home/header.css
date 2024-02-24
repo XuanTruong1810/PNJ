@@ -2,15 +2,18 @@ header {
   padding-bottom: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
+
 .container {
   margin-top: 10px;
 }
+
 .header_top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
+
 .header_top::after {
   display: block;
   width: 100%;
@@ -25,9 +28,11 @@ header {
   display: flex;
   margin-right: 100px;
 }
+
 .header_top-left i {
   margin-right: 10px;
 }
+
 .header_top-middle div {
   width: 100px;
 }
@@ -35,9 +40,11 @@ header {
 .header_top-middle div img {
   width: 100%;
 }
+
 .header_top-right {
   display: flex;
 }
+
 .header_top-right > div {
   padding: 0 20px;
 }
@@ -48,6 +55,7 @@ header {
   align-items: center;
   margin-top: 30px;
 }
+
 .header_bot div {
   position: relative;
   cursor: pointer;
@@ -67,15 +75,18 @@ header {
 .header_bot div :hover::after {
   width: 100%;
 }
+
 .header_bot div a {
   text-decoration: none;
   color: black;
   outline: none;
   cursor: pointer;
 }
+
 .header_bot .search {
   width: 300px;
 }
+
 .header_bot .search input {
   border: none;
   outline: none;

@@ -1,3 +1,9 @@
+<?php
+require_once '../../DesignPattern/Singleton.php';
+$publicFile = Singleton::getInstance()->PublicFile();
+
+
+?>
 <header>
     <div class="container">
         <div class="header_top">
@@ -10,7 +16,7 @@
             <div class="header_top-middle">
                 <div>
                     <!-- <a href="?page=home"> -->
-                    <img src="<?php echo $publicFile; ?>/Image/Common/logo.png" alt="" />
+                    <img src="<?php echo $publicFile; ?>/Image/Common/logo.png" alt="abc" />
 
                     <!-- </a> -->
 
@@ -40,7 +46,7 @@
             <div><a href="#">Blog</a></div>
             <div><a href="#">Khuyến mãi</a></div>
             <div class="search">
-                <input type="text" placeholder="Tìm kiếm trang sức" />
+                <input pattern="[a-zA-Z]+" title="Chỉ chấp nhận ký tự chữ" type="text" placeholder="Tìm kiếm trang sức" />
             </div>
         </div>
     </div>
