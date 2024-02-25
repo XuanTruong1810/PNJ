@@ -22,8 +22,6 @@ $publicFile = $singleton->PublicFile();
     <link rel="stylesheet" href="<?php echo $publicFile ?>/css/Customer/Customer.css">
     <link rel="stylesheet" href="<?php echo $publicFile ?>/css/Customer/login.css">
     <link rel="stylesheet" href="<?php echo $publicFile ?>/css/Customer/home.css">
-
-
 </head>
 
 <body>

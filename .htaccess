@@ -1,0 +1,15 @@
+<Files "./Views/head.php">
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files "./Views/script.php">
+Order Allow,Deny
+Deny from all
+</Files>
+
+
+<Files "config.json">
+Order Allow,Deny
+Deny from all
+</Files>
