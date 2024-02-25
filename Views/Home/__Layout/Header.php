@@ -4,7 +4,7 @@ $publicFile = Singleton::getInstance()->PublicFile();
 
 
 ?>
-<header>
+<header class="header_home-main">
     <div class="container">
         <div class="header_top">
             <div class="header_top-left">

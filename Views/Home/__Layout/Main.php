@@ -1,4 +1,4 @@
-<main>
+<main style="margin-top: 150px;">
     <div class="container">
         <?php
         $page = isset($_GET['page']) ? $_GET['page'] : 'home';
