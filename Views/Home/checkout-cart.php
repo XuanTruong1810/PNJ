@@ -84,7 +84,7 @@
             </div>
         </div>
         <div class="cart-right">
-            <div class="stepper-wrapper">
+            <div class="stepper-wrapper" style="z-index: 0;">
                 <div class="stepper-item completed">
                     <div class="step-counter"><i class="fa-solid fa-check"></i></div>
                     <div class="step-name">Thông tin người mua</div>

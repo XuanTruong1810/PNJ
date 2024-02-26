@@ -4,7 +4,8 @@
 
 <?php
 $publicFile = Singleton::getInstance()->PublicFile();
-$page = $_GET['page'];
+$page = isset($_GET['page']) ? $_GET['page'] : "home";
+
 if ($page == 'login') {
     include '../Customer/Login.php';
     exit();
