@@ -19,7 +19,7 @@ if ($page == 'login') {
             <div class="col-sm-9 header-right">
                 <?php include '../Customer/__Layout/header.php' ?>
 
-                <div class="customer_main">
+                <div class="customer_main" style="margin-left: 380px; margin-top: 70px; width: 100%;">
                     <!-- include dữ liệu -->
                     <?php include '../Customer/__Layout/Main.php' ?>
                 </div>
