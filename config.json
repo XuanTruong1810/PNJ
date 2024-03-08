@@ -1,7 +1,7 @@
 {
   "db_host": "localhost",
   "db_username": "root",
-  "db_password": "your_password",
-  "db_name": "your_database",
-  "db_connect_string": "mysql:host=localhost;dbname=your_database;charset=utf8mb4"
+  "db_password": "",
+  "db_name": "pnj",
+  "db_connect_string": "mysql:host=localhost;dbname=db_name;charset=utf8mb4"
 }
